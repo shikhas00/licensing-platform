@@ -9,5 +9,56 @@ wheels/
 # Virtual environments
 .venv
 
+# Environment files
 .env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded files
+backend/uploads/
+uploads/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Build outputs
+frontend/dist/
+
+# Test artifacts
+frontend/e2e/test-files/
+frontend/test-results/
+frontend/playwright-report/
+*.pdf
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude
 CLAUDE.md
+.claude/
+
+# Pytest
+.pytest_cache/
+
+# Test files (sample uploads)
+valid_license.pdf
+expired_license.pdf
+
